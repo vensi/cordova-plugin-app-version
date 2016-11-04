@@ -19,14 +19,7 @@
  */
 
 function notSupported(win,fail) {
-    //
     console.log('AppVersion is not supported');
-    setTimeout(function(){
-        win();
-        // note that while it is not explicitly supported, it does not fail
-        // this is really just here to allow developers to test their code in the browser
-        // and if we fail, then their app might as well. -jm
-    },0);
 }
 
 module.exports = {
