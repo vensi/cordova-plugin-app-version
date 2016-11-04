@@ -26,4 +26,10 @@
         </config-file>
         <source-file src="src/android/RareloopAppVersion.java" target-dir="src/com/rareloop/cordova/appversion" />
     </platform>
+
+    <platform name="browser">
+        <js-module src="src/browser/RareloopAppVersionProxy.js" name="RareloopAppVersionProxy">
+            <runs />
+        </js-module>
+    </platform>
 </plugin>
